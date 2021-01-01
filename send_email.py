@@ -3,7 +3,7 @@ import smtplib
 
 def send_email(email, height, average_height, no_users):
 	from_email = "devbotalex@gmail.com"
-	from_password = "AdevBot!3"
+	from_password = "iqtklwycbbrtqaxq"
 	to_email = email
 	subject = "Height data"
 	message = f"Hello! Your height is <strong>{height}</strong> cm. The average height of {no_users} users is <strong>{average_height}</strong> cm. "
